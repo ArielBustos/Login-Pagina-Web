@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> inicio de sesion usuario</title>
+    <link rel="icon" href="inacapLogo.jpeg">
+    <link rel="stylesheet" href="pagina_loging.css">
+</head>
+
+<body>
+
+    <div class="login-box">
+        <img src="inacapLogo.jpeg" class="avatar" alt="Avatar Image">
+        <form autocomplete="off">
+
+            <!-- USERNAME INPUT -->
+            <label for="username"></label>
+            <input type="text" class="form-control-lg form-control" name="usuario" id="usuario"
+                placeholder="Nombre Usuario o correo electronico" />
+            <div class="valid-feedback"></div>
+
+            <!-- PASSWORD INPUT -->
+            <label for="password"></label>
+            <input type="password" placeholder="Introduce la contraseña">
+
+            <div class="mb-3 form-check">
+                <a class="form-check-label" for="exampleCheck1">Guardar contraseña </a>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            </div>
+            <br>
+
+            <input type="submit" value="Iniciar sesion">
+            <a href="olvido_de_contraseña.html">Olvidaste tu contraseña</a><br>
+            <a href="registro_usuario.html">Crear nueva cuenta</a>
+
+        </form>
+    </div>
+</body>
+
+</html>
